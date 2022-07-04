@@ -60,15 +60,17 @@
             </ul>
           </li>
         </li>
+            <!-- CONTADOR DEL CARRITO -->
             <li class="nav-item">
               
               <img src="./assets/icon/cart.png" alt="cart" width="25" class="d-inline-block align-text-top mt-2">
-              <span id="cartCounter">0</span>
+              <span id="contador-carrito"></span>
               
             </li>
             </ul>
+            <!-- BUSCADOR -->
           <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search">
+          <input id="buscador" class="form-control me-2" type="search" placeholder="asfalto o trial?" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Buscar</button>
         </form>
       </div>
@@ -125,14 +127,20 @@
 
 <section class= "position card h-100 wow fadeIn" data-aos="fade-up" data-aos-duration="1500">
   
-<div id="contenedor-productos" class="ecomercejs container"></div>
+  <div id="contenedor-productos" class="ecomercejs container"></div>
 
-<div id="productoEnCarrito"></div>  
-
+  <div id="productoEnCarrito"></div>
 
 </section>
 
-<div class=""></div>
+
+<div>
+
+  <p class="precio-total">Precio total: $ <span id="precioTotal"></span></p>
+
+  <button id="vaciar-carrito" class="vaciarCarrito btn btn-danger">Vaciar</button>
+
+</div>
 
 
 <!-- VIDEO -->
