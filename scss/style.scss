@@ -144,4 +144,39 @@ nav div ul li a{
 
 
 
+.formulario-carrito{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    text-align: center;
+    align-items: center;
+    margin-left: 63px;
+    margin-bottom: 0px;
+    
+
+    img{
+        width: 100px;
+        height: 100px;
+
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        margin-top: 0px;
+    }
+}
+
+.vaciarCarrito{
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.precio-total{
+    margin-left: 70px;
+    font-weight: 600;
+    margin-top: 0px;
+
+    
+}
 
